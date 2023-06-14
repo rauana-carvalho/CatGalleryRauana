@@ -1,17 +1,24 @@
 
+@font-face {
+  font-family: 'justcomic';
+  src: url('just_cosmic.woff') format('woff');
+  font-style: normal;
+  font-size: large;
+}
+
 * {
     box-sizing: border-box;
   }
   
   body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: justcomic;
     background: #f5f6f7;
   }
   
   .header {
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: justcomic;
     text-transform: uppercase;
     padding: 32px;
     background-color: #AD7BE9;
